@@ -18,11 +18,6 @@ An ecommerce store built with MERN stack, and utilizes third party API's. This e
   * Redux Thunk middleware to handle asynchronous redux actions
 
 
-## Demo
-
-This application is deployed on Heroku. Please check it out :smile: [here](https://mern-store-80202.herokuapp.com/).
-
-See admin dashboard [demo](https://mernstore-bucket.s3.us-east-2.amazonaws.com/admin.mp4)
 
 ## Install
 
@@ -34,25 +29,7 @@ $ cd project
 $ npm install
 ```
 
-## Setup
 
-```
- Create .env file that include:
-
-  * MONGO_URI & JWT_SECRET
-  * PORT & BASE_SERVER_URL & BASE_API_URL & BASE_CLIENT_URL
-  * MAILCHIMP_KEY & MAILCHIMP_LIST_KEY => Mailchimp configuration
-  * MAILGUN_KEY & MAILGUN_DOMAIN & MAILGUN_EMAIL_SENDER => Mailgun configuration
-  * GOOGLE_CLIENT_ID & GOOGLE_CLIENT_SECRET & GOOGLE_CALLBACK_URL => Google Auth configuration
-  * FACEBOOK_CLIENT_ID & FACEBOOK_CLIENT_SECRET & FACEBOOK_CALLBACK_URL => Facebook Auth configuration
-  * AWS_ACCESS_KEY_ID & AWS_SECRET_ACCESS_KEY & AWS_REGION & AWS_BUCKET_NAME => AWS configuration
-```
-
-## Heroku Deployment
-
-```
-> Create a Procfile in the root directory of your application with the following command **web: npm run start:production**
-```
 
 
 ## Simple build for production
